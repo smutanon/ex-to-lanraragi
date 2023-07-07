@@ -1,0 +1,23 @@
+{
+	"manifest_version": 3,
+	"name": "Lanraragi-Ex",
+	"description": "Extension for downloading ex-hentai galleries to Lanraragi.",
+	"version": "1.0",
+	"icons": {
+		"16": "/images/16xL.png",
+		"48": "/images/48xL.png",
+		"128": "/images/128xL.png"
+	},
+	"options_page": "options.html",
+	"background": {
+		"service_worker": "eventPage.js"
+	},
+	"permissions": [
+		"contextMenus",
+		"storage",
+		"activeTab"
+	],
+	"host_permissions": [
+		"http://YOURURLTOSERVERHERE"
+	]
+}
